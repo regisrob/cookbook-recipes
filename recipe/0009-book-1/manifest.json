@@ -1,0 +1,180 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
+  ],
+  "id": "https://example.org/iiif/book1/manifest",
+  "type": "Manifest",
+  "label": { "en": [ "Book 1" ] },
+  "behavior": [ "paged" ],
+  "items": [
+    {
+      "id": "https://example.org/iiif/book1/canvas/front-cover",
+      "type": "Canvas",
+      "label": { "none": [ "Front cover" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/front-cover",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/front-cover/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/front-cover-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/page/front-cover"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/front-pastedown",
+      "type": "Canvas",
+      "label": { "none": [ "Front pastedown" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/front-pastedown/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/front-pastedown-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/front-pastedown-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/page/front-pastedown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p1",
+      "type": "Canvas",
+      "label": { "none": [ "p. 1" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/page1-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p2",
+      "type": "Canvas",
+      "label": { "none": [ "p. 2" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/page2-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/rear-pastedown",
+      "type": "Canvas",
+      "label": { "none": [ "Rear pastedown" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/rear-pastedown/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/rear-pastedown-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/rear-pastedown-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/canvas/rear-pastedown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/back-cover",
+      "type": "Canvas",
+      "label": { "none": [ "Back cover" ] },
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/back-cover/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/back-cover-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/3.0/example/fixtures/resources/back-cover-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "https://example.org/iiif/book1/canvas/back-cover"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
